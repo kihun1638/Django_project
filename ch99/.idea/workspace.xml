@@ -19,20 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caeb74cc-89c4-403c-b2d3-a2ff142e1201" name="Default Changelist" comment="bookmark 추가 error">
-      <change afterPath="$PROJECT_DIR$/blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/views.py" afterDir="false" />
+    <list default="true" id="caeb74cc-89c4-403c-b2d3-a2ff142e1201" name="Default Changelist" comment="bookmark 완료&#10;blog 진행중">
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive_day.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive_month.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive_year.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594706526336</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bookmark 완료&#10;blog 진행중">
+      <created>1594714018003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594714018003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,7 +129,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bookmark 추가 error" />
-    <option name="LAST_COMMIT_MESSAGE" value="bookmark 추가 error" />
+    <MESSAGE value="bookmark 완료&#10;blog 진행중" />
+    <option name="LAST_COMMIT_MESSAGE" value="bookmark 완료&#10;blog 진행중" />
   </component>
   <component name="WindowStateProjectService">
     <state x="654" y="294" width="696" height="276" key="#Notifications" timestamp="1594701614745">
@@ -152,30 +153,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="484" y="162" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1594695139190" />
-    <state width="1500" height="287" key="GridCell.Tab.0.bottom" timestamp="1594711444830">
+    <state width="1515" height="287" key="GridCell.Tab.0.bottom" timestamp="1594715871926">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1500" height="287" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1594711444830" />
-    <state width="1500" height="287" key="GridCell.Tab.0.center" timestamp="1594711444830">
+    <state width="1515" height="287" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1594715871926" />
+    <state width="1515" height="287" key="GridCell.Tab.0.center" timestamp="1594715871926">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1500" height="287" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1594711444830" />
-    <state width="1500" height="287" key="GridCell.Tab.0.left" timestamp="1594711444830">
+    <state width="1515" height="287" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1594715871926" />
+    <state width="1515" height="287" key="GridCell.Tab.0.left" timestamp="1594715871926">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1500" height="287" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1594711444830" />
-    <state width="1500" height="287" key="GridCell.Tab.0.right" timestamp="1594711444830">
+    <state width="1515" height="287" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1594715871926" />
+    <state width="1515" height="287" key="GridCell.Tab.0.right" timestamp="1594715871926">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1500" height="287" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1594711444830" />
+    <state width="1515" height="287" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1594715871926" />
     <state x="215" y="63" key="SettingsEditor" timestamp="1594707028178">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="215" y="63" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1594707028178" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1594713733791">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1594714025205">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594713733791" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594714025205" />
     <state x="93" y="93" width="1350" height="678" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1594708535760">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
