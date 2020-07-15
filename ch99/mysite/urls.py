@@ -24,7 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',HomeView.as_view(), name = 'home'),
     path('bookmark/', include('bookmark.urls')),
-    path('blog/', include('blog.urls'))
+    path('blog/', include('blog.urls')),
 
     #urls with view definition
     #path('bookmark/', ListView.as_view(model=Bookmark), name='index'),

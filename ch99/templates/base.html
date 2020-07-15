@@ -38,16 +38,23 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href= {% url 'home' %}>Home</a>
+            <a class="nav-link" href= "{% url 'home' %}" >Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href= {% url 'bookmark:index' %}>Bookmark</a>
+            <a class="nav-link" href= "{% url 'bookmark:index' %}" >Bookmark</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href= {% url 'blog:index' %}>Blog</a>
+            <a class="nav-link" href= "{% url 'admin:index' %}" >Admin</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href= {% url 'admin:index' %}>Admin</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Blog
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href=#>Blog</a>
+              <a class="dropdown-item" href="{% url 'blog:post_list'%}">Post</a>
+              <a class="dropdown-item" href="{% url 'blog:post_archive'%}">Archive</a>
+            </div>
           </li>
         </ul>
       </div>
