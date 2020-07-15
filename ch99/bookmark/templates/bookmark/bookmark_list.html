@@ -12,7 +12,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
             <h1>북마크</h1>
-            <span class="subheading">A Blog Theme by Start Bootstrap</span>
+            <span class="subheading"></span>
           </div>
         </div>
       </div>
@@ -21,6 +21,17 @@
 {% endblock %}
 
 {% block content %}
+<style>
+  .center {
+    position: relative;
+  }
+  .center div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+</style>
 
     <h1>Bookmark List </h1>
 
@@ -29,6 +40,7 @@
             <li><a href="{%url 'bookmark:detail' bookmark.id %}">{{bookmark}}</a> </li>
         {% endfor %}
     </ul>
+
 
 {% endblock %}
 

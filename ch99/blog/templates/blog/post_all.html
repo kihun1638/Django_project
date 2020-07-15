@@ -5,6 +5,7 @@
 {% block title%}post_all.html{% endblock %}
 
 {% block header %}
+
 <header class="masthead" style="background-image: url({% static 'img/home-bg.jpg' %})">
     <div class="overlay"></div>
     <div class="container">
@@ -21,30 +22,30 @@
 {% endblock %}
 
 {% block content%}
+<center>
+    <h1>Blog List</h1>
+    <br>
 
-<h1>Blog List</h1>
-<br>
+    {% for post in posts %}
+        <h3><a href="{{post.get_absolute_url}}">{{post.title}}</a> </h3>
+        {{post.modify_dt|date:"N d, Y"}}
+        <p>{{post.description</p>
+    {% endfor %}
 
-{% for post in posts %}
-    <h3><a href="{{post.get_absolute_url}}">{{post.title}}</a> </h3>
-    {{post.modify_dt|date:"N d, Y"}}
-    <p>{{post.description</p>
-{% endfor %}
+    <br>
 
-<br>
+    <div>
+        <span>
+            {% if page_obj.has_previous%}
+                <a href="?page={{page_obj.previous_page_number}}">PreviousPage</a>
+            {% endif %}
 
-<div>
-    <span>
-        {% if page_obj.has_previous%}
-            <a href="?page={{page_obj.previous_page_number}}">PreviousPage</a>
-        {% endif %}
+            Page {{page_obj.number}} of {{page_obj.paginator.num_pages}}
 
-        Page {{page_obj.number}} of {{page_obj.paginator.num_pages}}
-
-        {% if page_obj.has_next %}
-            <a href="?page={{page_obj.next_page_number}}">NextPage</a>
-        {% endif %}
-    </span>
-</div>
-
+            {% if page_obj.has_next %}
+                <a href="?page={{page_obj.next_page_number}}">NextPage</a>
+            {% endif %}
+        </span>
+    </div>
+</center>
 {% endblock %}
