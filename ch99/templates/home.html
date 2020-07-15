@@ -2,7 +2,7 @@
 
 {% load static %}
 
-{% block title %}bookmark_list.html {% endblock %}
+{% block title %}home.html {% endblock %}
 
 {% block header %}
 <header class="masthead" style="background-image: url({% static 'img/home-bg.jpg' %})">
@@ -20,20 +20,6 @@
   </header>
 {% endblock %}
 
-{% block content %}
-
-    <h1>Bookmark List </h1>
-
-    <ul>
-        {% for bookmark in object_list %}
-            <li><a href="{%url 'bookmark:detail' bookmark.id %}">{{bookmark}}</a> </li>
-        {% endfor %}
-    </ul>
-
-{% endblock %}
+{% block content %}{% endblock %}
 
 {% block extra-script %}{% endblock %}
-
-
-
-
