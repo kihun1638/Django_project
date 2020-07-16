@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'taggit.apps.TaggitAppConfig',
     'taggit_templatetags2',
     'photo.apps.PhotoConfig',
+    'widget_tweaks'
 ]
 
 MIDDLEWARE = [
@@ -133,12 +134,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
 TEMPLATES_DIRS = [os.path.join(BASE_DIR,'templates')]
 
-
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
 TAGGIT_CASE_INSENSITIVE = True
 TAGGIT_LIMIT = 50
 
 DISQUS_SHORTNAME = 'kihun1638'
 DISQUS_MY_DOMAIN = 'http://127.0.0.1:8000/'
+
+LOGIN_REDIRECT_URL = '/'
