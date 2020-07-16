@@ -21,26 +21,15 @@
 {% endblock %}
 
 {% block content %}
-<style>
-  .center {
-    position: relative;
-  }
-  .center div {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-</style>
+<center>
+        <h1>Bookmark List </h1>
 
-    <h1>Bookmark List </h1>
-
-    <ul>
-        {% for bookmark in object_list %}
-            <li><a href="{%url 'bookmark:detail' bookmark.id %}">{{bookmark}}</a> </li>
-        {% endfor %}
-    </ul>
-
+        <ul>
+            {% for bookmark in object_list %}
+                <li><a href="{%url 'bookmark:detail' bookmark.id %}">{{bookmark}}</a> </li>
+            {% endfor %}
+        </ul>
+</center>
 
 {% endblock %}
 
