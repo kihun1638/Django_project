@@ -20,31 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caeb74cc-89c4-403c-b2d3-a2ff142e1201" name="Default Changelist" comment="comment complete">
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/403.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_change_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_change_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_change_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_change_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/register_done.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmark/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmark/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_confirm_delete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookmark/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594876980073</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="PHOTO">
+      <created>1594888568868</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594888568868</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,22 +218,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="484" y="162" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1594695139190" />
-    <state width="1515" height="150" key="GridCell.Tab.0.bottom" timestamp="1594888213714">
+    <state width="1515" height="150" key="GridCell.Tab.0.bottom" timestamp="1594890295734">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="150" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1594888213714" />
-    <state width="1515" height="150" key="GridCell.Tab.0.center" timestamp="1594888213714">
+    <state width="1515" height="150" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1594890295734" />
+    <state width="1515" height="150" key="GridCell.Tab.0.center" timestamp="1594890295734">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="150" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1594888213714" />
-    <state width="1515" height="150" key="GridCell.Tab.0.left" timestamp="1594888213714">
+    <state width="1515" height="150" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1594890295734" />
+    <state width="1515" height="150" key="GridCell.Tab.0.left" timestamp="1594890295734">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="150" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1594888213714" />
-    <state width="1515" height="150" key="GridCell.Tab.0.right" timestamp="1594888213714">
+    <state width="1515" height="150" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1594890295734" />
+    <state width="1515" height="150" key="GridCell.Tab.0.right" timestamp="1594890295734">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="150" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1594888213714" />
+    <state width="1515" height="150" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1594890295734" />
     <state width="1515" height="277" key="GridCell.Tab.1.bottom" timestamp="1594879062618">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -268,22 +254,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="215" y="63" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1594879197149" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1594877005213">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1594888581204">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594877005213" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594888581204" />
     <state x="93" y="93" width="1350" height="678" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1594708535760">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.864@0.0.1536.864" timestamp="1594708535760" />
-    <state x="572" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594791423818">
+    <state x="572" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594888556154">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="572" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1594791423818" />
-    <state x="186" y="33" width="1220" height="804" key="find.popup" timestamp="1594887775720">
+    <state x="572" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1594888556154" />
+    <state x="186" y="33" width="1220" height="804" key="find.popup" timestamp="1594890489504">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="186" y="33" width="1220" height="804" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1594887775720" />
+    <state x="186" y="33" width="1220" height="804" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1594890489504" />
     <state x="430" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1594885620702">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
